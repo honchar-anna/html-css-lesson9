@@ -1,0 +1,177 @@
+.boxss{
+   width: 500px;
+   height: 200px;
+    background-color: rgba(0, 0, 0, 0.238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+   width: 20px;
+   height: 20px;
+   margin-left: 20px;
+}
+.box1{
+   background-color:white;
+   border-radius: 10px;
+   animation-name: pulse;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+  background: #f7f7f7;
+  box-shadow: 0 0 0 rgba(248, 248, 248, 0.259);
+}
+@keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.58);
+      }
+      70% { 
+          box-shadow: 0 0 0 10px rgba(255, 255, 254, 0);
+      }
+      100% {
+          box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+      }
+    
+}
+.box2{
+   background-color:rgb(197, 32, 32);
+   border-radius: 10px;
+   animation-name: pulse2;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgba(246, 101, 101, 0.696);
+
+}
+@keyframes pulse2{
+   0%{
+      box-shadow: 0 0 0 0 rgba(212, 94, 94, 0.7) ;
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(197, 32, 32, 0) ;
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(197, 32, 32, 0) ;
+   }
+}
+.box3{
+   background-color:rgb(248, 74, 5);
+   border-radius: 10px;
+   animation-name: pulse3;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgba(250, 101, 43, 0.863);
+}
+@keyframes pulse3{
+   0%{
+      box-shadow: 0 0 0 0 rgba(250, 102, 43, 0.623) ;
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(250, 102, 43, 0);
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(250, 102, 43, 0);
+   }
+}
+
+.box4{
+   background-color:rgb(243, 179, 40);
+   border-radius: 10px;
+   animation-name: pulse4;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgb(243, 179, 40);
+}
+@keyframes pulse4{
+   0%{
+      box-shadow: 0 0 0 0 rgb(243, 179, 40);
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(243, 179, 40, 0);
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(243, 179, 40, 0)
+   }
+}
+.box5{
+   background-color:rgb(28, 153, 243);
+   border-radius: 10px;
+   animation-name: pulse5;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgba(28, 153, 243, 0.697);
+}
+@keyframes pulse5{
+   0%{
+      box-shadow: 0 0 0 0 rgba(28, 153, 243, 0.697);
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(28, 153, 243, 0);
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(28, 153, 243, 0.043)
+   }
+}
+.box6{
+   background-color:rgb(10, 239, 201);
+   border-radius: 10px;
+   animation-name: pulse6;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgba(10, 239, 201, 0.531);
+}
+@keyframes pulse6{
+   0%{
+      box-shadow: 0 0 0 0 rgba(10, 239, 201, 0.517);
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(10, 239, 201, 0);
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(10, 239, 201, 0)
+   }
+}
+.box7{
+   background-color:rgb(82, 76, 201);
+   border-radius: 10px;
+   animation-name: pulse7;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgba(82, 76, 201, 0.683);
+}
+@keyframes pulse7{
+   0%{
+      box-shadow: 0 0 0 0 rgba(82, 76, 201, 0.683);
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(82, 76, 201, 0);
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(82, 76, 201, 0)
+   }
+}
+.box8{
+   background-color:rgb(0, 0, 0);
+   border-radius: 10px;
+   animation-name: pulse8;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+ 
+  box-shadow: rgba(0, 0, 0, 0.574);
+}
+@keyframes pulse8{
+   0%{
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.574);
+   }
+   70%{
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+   }
+   100%{
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0)
+   }
+}

@@ -1,0 +1,42 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: darkblue;
+}
+.box{
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   background-color: coral;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   animation-name: box;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-fill-mode: forwards;
+   animation-direction:normal;
+}
+@keyframes box{
+   0%{
+      width: 100px;
+     height: 100px;
+    transform: rotate(-180deg) ;
+
+   }
+   50%{
+      width: 80px;
+      height: 80px;
+      border-radius: 40px;
+   }
+   100%{
+      width: 100px;
+      height: 100px;
+        transform: rotate(360deg) ;
+   }
+}
